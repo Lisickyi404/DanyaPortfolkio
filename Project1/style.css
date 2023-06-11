@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600&family=Caveat:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=VT323&display=swap');
+
+
+body{
+background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+color: #E4E4E4;
+font-family: 'Open Sans';
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+h2{
+    color:blue;
+}
+header{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.header_content{
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    /* далее вырваниваю в линию */
+    display:flex;
+    justify-content:space-between;
+}
+
+.menu_list{
+    display:flex;
+    width:710px;
+    justify-content:space-between;
+    list-style:none;
+}
+
+li{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    cursor:pointer;
+}
