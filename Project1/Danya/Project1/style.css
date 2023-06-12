@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600&family=Caveat:wght@400;500;600;700&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=VT323&display=swap');
+
+
+body{
+background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+color: #E4E4E4;
+font-family: 'Open Sans';
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+header{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.header_content{
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    /* далее вырваниваю в линию */
+    display:flex;
+    justify-content:space-between;
+}
+
+.menu_list{
+    display:flex;
+    width:710px;
+    justify-content:space-between;
+    list-style:none;
+}
+
+li{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    cursor:pointer;
+}
+
+li:hover{
+    border-bottom:1px solid rgba(226, 163, 0, 1);
+}
+
+.hello_left{
+    max-width:447px;
+}
+
+.hello_title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.hello_subtitle{
+    margin-top:27px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    margin-bottom:27px;
+}
+
+.hello_text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+.button1{
+    margin-top:27px;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color:black;
+    padding:14px 38px 13px 41px;
+    border:0;
+    cursor:pointer;
+}
+
+.hello{
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
