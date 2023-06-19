@@ -13,9 +13,7 @@ font-family: 'Open Sans';
     box-sizing:border-box;
 }
 
-h2{
-    color:blue;
-}
+
 header{
     padding-top:30px;
     padding-bottom:30px;
@@ -42,4 +40,123 @@ li{
     font-size: 18px;
     line-height: 21px;
     cursor:pointer;
+}
+
+li:hover{
+    border-bottom:1px solid rgba(226, 163, 0, 1);
+}
+
+.hello_left{
+    max-width:447px;
+    
+}
+
+.hello_title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.hello_subtitle{
+    margin-top:27px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    margin-bottom:27px;
+}
+
+.hello_text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+.button1{
+    margin-top:27px;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color:black;
+    padding:14px 38px 13px 41px;
+    border:0;
+    cursor:pointer;
+}
+
+.hello{
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.hello_img{
+    border: 67px solid #00C4F0;
+    filter: drop-shadow(0px 0px 152px rgba(0, 196, 240, 0.42));
+    border-radius:50%;
+    width:575px;
+    height:575px;
+    position:relative;
+    
+}
+
+.img{
+   position:absolute;
+    top:-150px;
+
+}
+
+.hello_section{
+    padding-top:45px;
+    padding-bottom:45px;
+}
+
+
+.about_section{
+    padding-top:100px;
+    padding-bottom:100px;
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+
+.skills{
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:40px;
+    align-items:center;
+    justify-content:center;
+}
+
+.skill_item{
+    background: #2A2A2A;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+    border-radius: 29px;
+    width:270px;
+    height:270px;
+    position:relative;
+}
+
+.skill_title{
+    width:100%;
+    text-align:center;
+    position:absolute;
+    bottom:50px;
+    font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+}
+
+.skill_img{
+    position:absolute;
+    top:25%;
+    left:33%;
+    align-items:center;
+    
 }
